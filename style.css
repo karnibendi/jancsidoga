@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* navigáció */
+nav {
+    background-color: #2980b9;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* fejléc */
+.header {
+    background-color: #1a5276;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #aed6f1;
+}
+
+/* tartalom */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #1a5276;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* kártyák */
+.cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #2980b9;
+    margin-top: 0;
+}
+
+/* táblázat */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+}
+
+table th {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* lista */
+ul {
+    line-height: 2;
+    color: #333;
+}
+
+/* szekciók felváltva */
+.section-white {
+    background: white;
+    padding: 30px 0;
+}
+
+.section-gray {
+    background: #ecf0f1;
+    padding: 30px 0;
+}
+
+/* footer */
+footer {
+    background-color: #1a5276;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #aed6f1;
+    margin: 5px 0;
+}
+
+/* gomb */
+.gomb {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gomb:hover {
+    background-color: #1a5276;
+}
+
+.highlight {
+    background-color: #d6eaf8;
+    border-left: 4px solid #2980b9;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+/* aloldal kiemelt link */
+.tovabb {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.tovabb:hover {
+    background-color: #1a5276;
+}
